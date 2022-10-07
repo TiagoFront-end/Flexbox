@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-align: center;
+    background-color: red;    
+}
+
+/* ul {
+    display:flex;
+    flex-wrap: wrap;
+
+} */
+
+/* quebra de linha com os wrap-reverse   na posição inversa*/
+ul {
+    display:flex;
+   flex-wrap: wrap-reverse;
+
+
+}
+li {
+    width: 200px;
+    height: 150px;
+    background-color: #8cacea;
+    margin: 65px;
+    padding-top:25px;
+    
+ 
+  
+}
+
+/* justify content */
+
+.justificar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    height: 50%;
+   
+}
+
+
+.justy {
+    width: 100px;
+    background-color: gray;
+    font-size: 2rem;
+    margin: 8px;
+    order: 1;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+/* reordenando */
+
+.justy:nth-child(2) {
+    order: 0;
+}
+
+.flex {
+    display: flex;
+    
+}
